@@ -1,8 +1,16 @@
 *
 {
     box-sizing: border-box;
-    /* background-color: thistle; */
-    /* background-color: color-mix(in hsl shorter hue, #b1aebb 20%, #3a3153 30%);    */
+}
+.page
+{
+    height: 120vh;
+    background-color: #fee;
+}
+img
+{
+    opacity: 0.9;
+    /* align-content: center; */
 }
 h1
 {
@@ -10,10 +18,11 @@ h1
     font-size: 65px;
     font-family: sans-serif;
     letter-spacing: 3px;
+    /* background-color: skyblue; */
+    background-color: cadetblue;
 }
 .main
 {
-    /* background-image: url('/Users/nencyparmar/Downloads/neon-grid-background/91657.jpg'); */
     height: 60vh;
     /* border: 1px solid; */
 }
@@ -22,15 +31,14 @@ h1
     /* border: 1px solid; */
     height: 100%;
     width: 100%;
-    /* background-color: #a881af; */
 }
 .first
 {
     height: 100%;
+    opacity: 0.2;
     width: 33.33%;
     /* border: 1px solid; */
     float: left;
-    /* background-color: whitesmoke; */
 }
 .sec
 {
@@ -38,15 +46,14 @@ h1
     width: 33.33%;
     /* border: 1px solid; */
     float: left;
-    /* background-color: #a881af; */
 }
 .third
 {
     height: 100%;
     width: 33.33%;
     /* border: 1px solid; */
+    opacity: 0.2;
     float: left;
-    /* background-color: whitesmoke; */
 }
 .row
 {
@@ -63,7 +70,7 @@ h1
     float: left;
     border: 3px solid;
     cursor: pointer;
-    background: radial-gradient(white, dimgrey);
+    background: radial-gradient(white, rgb(185, 185, 155));
 }
 button
 {
@@ -75,7 +82,8 @@ button
     cursor: pointer;
     border-color: black;
     padding: 10px;
-    background-color: #5783db;
+    /* background-color: #5783db; */
+    background-color: #a881af;
     transition: 1s;
 }
 button:hover

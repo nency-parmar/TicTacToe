@@ -207,7 +207,7 @@ function changeColor(id)
         {
             Swal.fire({
                 title: "DRAW!",
-                text: "It is DRAW!",
+                text: "It is DRAW!   Click to Restart Game",
                 icon: "info"
               });
         }
